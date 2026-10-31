@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.bak[0-9]
+# Training artefacts: checkpoints, logs, figures and result tables are not source.
+model/
+models/
+logs/
+figs/
+wandb/
+*.pth
+*.h5
+*.csv
